@@ -1,0 +1,96 @@
+/* Name: Celea Ransom
+*  Date: 1/18/19
+*  Innovative women */
+
+* { /* universal selector zeros all formatting out and makes the background beige and the font not the auto*/
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    font-family:"comic sans", "helvetica", sans-serif;
+}
+
+body { /*for a liquid layout a percent establishes the body width and a margin is added in pixels*/
+    width: 90% ;
+    margin: 15px auto;
+
+   
+}
+
+h1 { /*the headings use pixels to establish size and padding*/
+    padding: 10px;
+    font-size: 50px;
+    color: navy;
+}
+h2{
+    font-size: 35px;
+    padding: 7px 7px 0 7px; 
+    color: navy;
+}
+
+#sidebarA { /*the height is established in pixels and it is floated left to leave room for the other columns, a border is set on the right and a width is used in % for a liquid layout*/ 
+    width: 17%;
+height: 450px;
+    float: left;
+    border-right: 2px solid #e99898;
+}
+
+main { /*floated left to leave room for the third column and given a width in percentage for a liquid layout*/
+height: 450px;
+    width: 60.645%;
+    float: left ;
+}
+
+#sidebarB { /*fluid width and a border on the left, floated right*/
+    width: 22%;
+height: 450px;
+    float: right;
+    border-left: 2px solid #e99898;
+}
+footer { /*cleared so that its not stuck to the right or left, navy text*/ 
+    clear:both ;
+    
+    color: navy;
+}
+#old { /*images are given pixel height and widths and this image is floated right, given a margin and a border*/
+  height: 200px;
+    width: 400px;
+    float: right;
+    margin: 0 27px 27px 27px;
+    border: 2px solid black;
+}
+#bjk { /*same as above*/ 
+    height: 200px;
+    width: 175px;
+    margin: 0 0 27px 27px;
+    border: 2px solid black;
+}
+#tennis { /*see above*/
+    height: 200px;
+    width: 175px;
+    border: 2px solid black;
+    margin:  35px;
+}
+ul { /*padding added so the list stays in its section*/
+    padding-left: 10%;
+    color: navy;
+}
+li { /*padding keeps it away from the edge, unlike my approach to life*/
+    padding-right: 5%;
+}
+#awards { /*an id is used to specify which <p>, padding is added and the text is justified to keep it away from the edge and looking nice*/
+ padding-left: 7px;
+    padding-right: 7px;
+text-align: justify;
+    color: navy;
+}
+#bio { /*see above*/
+    text-align: justify;
+    padding: 0 7px;
+    color: navy;
+}
+blockquote { /*aligned center to make it look professional*/
+    padding: 10px 0;
+    text-align: center;
+    color: navy;
+}
+
